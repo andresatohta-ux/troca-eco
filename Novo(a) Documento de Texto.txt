@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eco Troca</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">🌱 Eco Troca</div>
+
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Benefícios</a>
+      <a href="#">Itens</a>
+      <a href="#">Contato</a>
+    </nav>
+
+    <button class="btn">Entrar</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Troque hoje.<br>Transforme o amanhã.</h1>
+    <p>Troque objetos que você não usa mais e ajude o planeta.</p>
+    <button class="btn">Começar</button>
+  </div>
+
+  <div class="hero-img">
+    <img src="images/hero.jpg">
+  </div>
+</section>
+
+<section class="benefits">
+  <h2>Por que usar?</h2>
+
+  <div class="cards">
+    <div class="card">🌎 <h3>Sustentável</h3><p>Menos lixo no planeta</p></div>
+    <div class="card">💰 <h3>Economia</h3><p>Trocas sem dinheiro</p></div>
+    <div class="card">🤝 <h3>Comunidade</h3><p>Conecte pessoas</p></div>
+  </div>
+</section>
+
+<section class="items">
+  <h2>Itens disponíveis</h2>
+
+  <div class="grid">
+
+    <div class="item">
+      <img src="images/livros.jpg">
+      <h3>Livros</h3>
+    </div>
+
+    <div class="item">
+      <img src="images/mochila.jpg">
+      <h3>Mochila</h3>
+    </div>
+
+    <div class="item">
+      <img src="images/jaqueta.jpg">
+      <h3>Jaqueta</h3>
+    </div>
+
+    <div class="item">
+      <img src="images/plantas.jpg">
+      <h3>Plantas</h3>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Eco Troca © 2025</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
